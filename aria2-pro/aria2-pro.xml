@@ -29,7 +29,7 @@ License&#xD;
   MIT &#xA9; P3TERX&#xD;
 </Overview>
   <Category>Downloaders:</Category>
-  <WebUI>http://ariang.mayswind.net/latest/#!/status</WebUI>
+  <WebUI>http://ariang.mayswind.net/latest/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/icons/AriaNg.ico</Icon>
   <ExtraParams/>
