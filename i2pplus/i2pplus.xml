@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>i2p+</Name>
+  <Repository>justinhimself/i2pplus</Repository>
+  <Registry>https://hub.docker.com/r/justinhimself/i2pplus</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://gitlab.com/i2pplus/I2P.Plus</Project>
+  <Overview>
+  I2P+ is an enhanced version of the Java I2P anonymizing network platform that aims to deliver a superior user experience and improved network performance while retaining full compatibility with upstream I2P.
+  &#xD;
+  An enhanced user interface with updated themes, easier to understand configuration and diagnostics, and an augmented feature set make I2P+ a compelling alternative to the official I2P release.
+  &#xD;
+  Additionally, I2P+ implements improvements to the router's network performance and, for routers that are firewalled, significantly increases participating traffic and network responsiveness. Performance of the resident BitTorrent client I2PSnark is also improved in some contexts.
+</Overview>
+  <Category>Network:Other Network:Privacy</Category>
+  <WebUI>http://[IP]:[PORT:7657]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/i2pplus/i2pplus.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/i2pplus/i2pplus.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="I2P+ Home" Target="/i2p/.i2p" Default="/mnt/user/appdata/i2pplus/home" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="I2P+ Torrents" Target="/i2psnark" Default="/mnt/user/appdata/i2pplus/torrents" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="HTTP Proxy" Target="4444" Default="4444" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">4444</Config>
+  <Config Name="IRC Proxy" Target="6668" Default="6668" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6668</Config>
+  <Config Name="Web Console" Target="7657" Default="7657" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7657</Config>
+  <Config Name="I2NP Protocol / TCP" Target="12345" Default="54321" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">54321</Config>
+  <Config Name="I2NP Protocol / UDP" Target="12345" Default="54321" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">54321</Config>
+</Container>

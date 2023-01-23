@@ -9,14 +9,15 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/i2p/i2p.i2p</Project>
-  <Overview>Upstream Docker images for the Java implementation of the Invisible Internet(I2P).&#xD;
-&#xD;
-The Invisible Internet Project (I2P) is a fully encrypted private network layer. It protects your activity and location. Every day people use the network to connect with people without worry of being tracked or their data being collected. In some cases people rely on the network when they need to be discrete or are doing sensitive work.
+  <Overview>
+  Upstream Docker images for the Java implementation of the Invisible Internet(I2P).
+  &#xD;
+  The Invisible Internet Project (I2P) is a fully encrypted private network layer. It protects your activity and location. Every day people use the network to connect with people without worry of being tracked or their data being collected. In some cases people rely on the network when they need to be discrete or are doing sensitive work.
 </Overview>
   <Category>Network:Other Network:Privacy</Category>
   <WebUI>http://[IP]:[PORT:7657]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/i2p/i2p.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/i2p/i2p.ico</Icon>
+  <Icon>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/i2p/i2p.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -26,7 +27,7 @@ The Invisible Internet Project (I2P) is a fully encrypted private network layer.
   <Config Name="I2P Home" Target="/i2p/.i2p" Default="/mnt/user/appdata/i2p/home" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="I2P Torrents" Target="/i2psnark" Default="/mnt/user/appdata/i2p/torrents" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="HTTP Proxy" Target="4444" Default="4444" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">4444</Config>
-  <Config Name="IRC Proxy" Target="6888" Default="6888" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6888</Config>
+  <Config Name="IRC Proxy" Target="6668" Default="6668" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6668</Config>
   <Config Name="Web Console" Target="7657" Default="7657" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7657</Config>
   <Config Name="I2NP Protocol / TCP" Target="12345" Default="54321" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">54321</Config>
   <Config Name="I2NP Protocol / UDP" Target="12345" Default="54321" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">54321</Config>
