@@ -30,12 +30,11 @@ License&#xD;
 </Overview>
   <Category>Downloaders:</Category>
   <WebUI>http://ariang.mayswind.net/latest/</WebUI>
-  <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/icons/AriaNg.ico</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/aria2-pro/aria2-pro.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/aria2-pro/aria2-pro.ico</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1654925480</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires>Additional WEBUI is required, read the README for details.</Requires>
