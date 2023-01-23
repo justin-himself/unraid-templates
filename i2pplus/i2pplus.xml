@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>i2p+</Name>
+  <Name>i2pplus</Name>
   <Repository>justinhimself/i2pplus</Repository>
   <Registry>https://hub.docker.com/r/justinhimself/i2pplus</Registry>
   <Network>bridge</Network>
