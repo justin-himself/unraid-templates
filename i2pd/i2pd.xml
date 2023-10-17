@@ -16,7 +16,7 @@
   <WebUI>http://[IP]:[PORT:7070]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/i2pd/i2pd.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/i2pd/i2pd.png</Icon>
-  <ExtraParams/>
+  <ExtraParams>--restart always</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DonateText/>
