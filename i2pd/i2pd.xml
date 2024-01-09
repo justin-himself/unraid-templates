@@ -21,7 +21,7 @@
   <CPUset/>
   <DonateText/>
   <DonateLink/>
-  <Requires>It is strongly suggested to use host network mode.</Requires>>
+  <Requires>It is strongly suggested to use host network mode.</Requires>
   <Config Name="I2Pd Config" Target="/config" Default="/mnt/user/appdata/i2pd" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
 
   <Config Name="HTTP Proxy" Target="4444" Default="4444" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">4444</Config>

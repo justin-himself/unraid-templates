@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ipfs-kubo</Name>
+  <Repository>ipfs/kubo</Repository>
+  <Registry>https://hub.docker.com/r/ipfs/kubo</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://ipfs.tech/</Project>
+  <Overview>
+  Kubo was the first IPFS implementation and is the most widely used one today. 
+</Overview>
+  <Category>Network:Other Network:Privacy:Web:Download</Category>
+  <WebUI>http://[IP]:[PORT:7070]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/ipfs-kubo/ipfs-kubo.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/ipfs-kubo/ipfs-kubo.png</Icon>
+  <ExtraParams>--restart always</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Config Name="IPFS Staging" Target="/export" Default="/mnt/user/appdata/ipfs-kubo/export" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="IPFS Data" Target="/data/ipfs" Default="/mnt/user/appdata/ipfs-kubo/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+
+  <Config Name="P2P TCP transports" Target="4001" Default="4001" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">4001</Config>
+  <Config Name="P2P QUIC transports" Target="4001" Default="4001" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">4001</Config>
+
+  <Config Name="RPC API" Target="5001" Default="5001" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5001</Config>
+  <Config Name="Gateway" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+</Container>
