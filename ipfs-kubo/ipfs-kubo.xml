@@ -13,7 +13,7 @@
   Kubo was the first IPFS implementation and is the most widely used one today. 
 </Overview>
   <Category>Network:Other Network:Privacy:Web:Download</Category>
-  <WebUI>http://[IP]:[PORT:7070]/</WebUI>
+  <WebUI>https://webui.ipfs.io/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/ipfs-kubo/ipfs-kubo.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/justin-himself/unraid-templates/master/ipfs-kubo/ipfs-kubo.png</Icon>
   <ExtraParams>--restart always</ExtraParams>
